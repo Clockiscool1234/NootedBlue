@@ -13,7 +13,7 @@ env:
 jobs:
   build:
     name: Build
-    runs-on: macos-latest
+    runs-on: macos-13
     env:
       JOB_TYPE: BUILD
     steps:
@@ -46,7 +46,7 @@ jobs:
 
   analyse-clang:
     name: Analyse Clang
-    runs-on: macos-latest
+    runs-on: macos-13
     env:
       JOB_TYPE: ANALYZE
     steps:
